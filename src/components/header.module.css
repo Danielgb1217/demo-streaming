@@ -1,0 +1,82 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #047afa;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navigation a {
+    margin: 0;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.popular {
+    background-color: #1e1d1d;
+    width: 100%;
+}
+
+.popularTitles h2 {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-top: 0rem;
+    font-weight: 400;
+
+}
+
+.popularTitles {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+.login {
+    display: flex;
+    gap: 1rem;
+}
+
+.loginButton {
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.freeButton {
+    background-color: #414141;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .popular {
+        width: 100%;
+    }
+
+    .login {
+        flex-direction: column;
+        text-align: center;
+    }
+}

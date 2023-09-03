@@ -1,0 +1,49 @@
+footer {
+    background-color: #1e1d1d;
+    height: 12rem;
+}
+
+footer p {
+    color: white;
+}
+
+.social {
+    width: 25px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.socialFacebook {
+    width: 15px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.store {
+    width: 100px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.storeWindows {
+    width: 80px;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.container {
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.container p {
+    font-size: 0.8rem;
+}
+
+.networks {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
